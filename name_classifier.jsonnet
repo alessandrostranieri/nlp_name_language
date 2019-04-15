@@ -1,9 +1,9 @@
 // jsonnet allows local variables like this
-local char_embedding_dim = 24;
+local char_embedding_dim = 128;
 local hidden_dim = 128;
-local num_epochs = 1000;
-local patience = 20;
-local batch_size = 32;
+local num_epochs = 100;
+local patience = 10;
+local batch_size = 8;
 local learning_rate = 0.1;
 
 {
