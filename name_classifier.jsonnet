@@ -1,10 +1,10 @@
 // jsonnet allows local variables like this
 local char_embedding_dim = 128;
 local hidden_dim = 128;
-local num_epochs = 100;
-local patience = 10;
+local num_epochs = 150;
+local patience = 20;
 local batch_size = 8;
-local learning_rate = 0.1;
+local learning_rate = 0.15;
 
 {
     "train_data_path": "../data/training.txt",
